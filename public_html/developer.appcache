@@ -1,0 +1,29 @@
+CACHE MANIFEST
+# 2010-02-08:v2
+CACHE:
+
+#index.html
+#js/app.js
+#open.sources/angular/angular.min.js 
+#open.sources/bootstrap/css/bootstrap-theme.css 
+#open.sources/bootstrap/css/bootstrap-theme.css.map 
+#open.sources/bootstrap/css/bootstrap-theme.min.css 
+#open.sources/bootstrap/css/bootstrap.css 
+#open.sources/bootstrap/css/bootstrap.css.map 
+open.sources/bootstrap/css/bootstrap.min.css 
+#open.sources/bootstrap/fonts/glyphicons-halflings-regular.eot 
+#open.sources/bootstrap/fonts/glyphicons-halflings-regular.svg 
+#open.sources/bootstrap/fonts/glyphicons-halflings-regular.ttf 
+#open.sources/bootstrap/fonts/glyphicons-halflings-regular.woff 
+#open.sources/bootstrap/fonts/glyphicons-halflings-regular.woff2 
+#open.sources/bootstrap/js/bootstrap.js 
+#open.sources/bootstrap/js/bootstrap.min.js
+
+# Require the user to be online.
+NETWORK:
+
+*
+
+# offline.html will be served in place of all other .html files
+FALLBACK:
+#/index.html /offline.html
