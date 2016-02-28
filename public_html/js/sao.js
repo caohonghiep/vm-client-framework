@@ -1,1 +1,0 @@
-//Synchronization Adaptor Object
