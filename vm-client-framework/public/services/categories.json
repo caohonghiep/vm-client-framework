@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "name": "Nam",
+        "imageUrl": "",
+        "childs": [
+            {
+                "id": 4,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t10.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t10.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t2.jpg"
+            },
+            {
+                "id": 7,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t3.jpg"
+            },
+            {
+                "id": 8,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t4.jpg"
+            },
+            {
+                "id": 9,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t5.jpg"
+            },
+            {
+                "id": 10,
+                "name": "Quần Tây ",
+                "imageUrl": "images/t6.jpg"
+            }]
+    },
+    {
+        "id": 2,
+        "name": "Nữ",
+        "imageUrl": "",
+        "childs": [
+            {
+                "id": 11,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t7.jpg"
+            },
+            {
+                "id": 12,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t8.jpg"
+            },
+            {
+                "id": 13,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t12.jpg"
+            },
+            {
+                "id": 14,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t1.jpg"
+            },
+            {
+                "id": 15,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t11.jpg"
+            },
+            {
+                "id": 16,
+                "name": "Áo Sơ Mi ",
+                "imageUrl": "images/t9.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Phụ Kiện",
+        "imageUrl": "",
+        "childs": [
+            {
+                "id": 17,
+                "name": "Phụ Kiện",
+                "imageUrl": "images/t10.jpg"
+            },
+            {
+                "id": 18,
+                "name": "Phụ Kiện",
+                "imageUrl": "images/t2.jpg"
+            },
+             {
+                "id": 19,
+                "name": "Phụ Kiện",
+                "imageUrl": "images/t3.jpg"
+            },
+             {
+                "id": 20,
+                "name": "Phụ Kiện",
+                "imageUrl": "images/t4.jpg"
+            },
+             {
+                "id": 21,
+                "name": "Phụ Kiện",
+                "imageUrl": "images/t5.jpg"
+            },
+            {
+                "id": 22,
+                "name": "Phụ Kiện",
+                "imageUrl": "images/t6.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+<!--banner-->
+<ng-include src="'parts/breadcrumbs.html'"></ng-include>
+<div class="account">
+    <div class="container">
+        <h2>Đăng Nhập</h2>
+        <div class="account_grid">
+            <div class="col-md-6 login-right">
+                <form>
+
+                    <span>Email Address</span>
+                    <input type="text" name="email" ng-model="email"> 
+
+                    <span>Password</span>
+                    <input type="password" name="password"  ng-model="password"> 
+                    <div class="word-in">
+                        <a class="forgot" ng-click="forgotPassword()" href="javascript:">Quen Mat Khau</a>
+
+                    <button ng-click="submitLogin()">
+                        Đăng Nhập
+                    </button>
+.
+                    </div>
+                </form>
+            </div>	
+            <div class="col-md-6 login-left">
+                <h4>NEW CUSTOMERS</h4>
+                <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+                <a class="acount-btn" href="#/register">Create an Account</a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>

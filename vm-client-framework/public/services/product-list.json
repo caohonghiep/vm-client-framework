@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi9.png",
+        "price": 2000
+    },
+    {
+        "id": 2,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi11.png",
+        "price": 3000
+    },
+    {
+        "id": 3,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi10.png",
+        "price": 4000
+    },
+    {
+        "id": 4,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi12.png",
+        "price": 5000
+    },
+    {
+        "id": 4,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi11.png",
+        "price": 5000
+    },
+    {
+        "id": 6,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi9.png",
+        "price": 7000
+    },
+    {
+        "id": 7,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi11.png",
+        "price": 8000
+    },
+    {
+        "id": 8,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi12.png",
+        "price": 9000
+    },
+    {
+        "id": 9,
+        "categoryId": 5,
+        "name": "Nam",
+        "imageUrl": "images/pi9.png",
+        "price": 10000
+    }
+]
+        

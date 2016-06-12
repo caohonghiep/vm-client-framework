@@ -1,0 +1,98 @@
+<div class="col-md-9">
+    <div class="col-md-5 grid">		
+		<div class="flexslider">
+			  <ul class="slides">
+                              <li ng-repeat="picture in detail.pictures" data-thumb='{{picture}}' repeat-done="effectSlider()">
+			        <div class="thumb-image"> 
+                                    <img ng-src="{{picture}}" data-imagezoom="true" class="img-responsive"> 
+                                </div>
+			    </li>
+                            
+			  </ul>
+		</div>
+	</div>	
+    <div class="col-md-7 single-top-in">
+        <div class="single-para simpleCart_shelfItem">
+            <h2>{{detail.name}}</h2>
+            <p>{{detail.description}}</p>
+            <div class="star-on">
+                <ul>
+                    <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-star"> </i></a></li>
+                </ul>
+                <!--                        <div class="review">
+                                            <a href="#"> 3 reviews </a>/
+                                            <a href="#">  Write a review</a>
+                                        </div>-->
+                <div class="clearfix"> </div>
+            </div>
+
+            <label class="add-to item_price">{{detail.price}}</label>
+
+            <div class="available">
+                <h6>Available Options :</h6>
+                <ul>
+
+                    <li>Size:<select>
+                            <option ng-repeat="size in detail.sizes" value="{{size}}">{{size}}</option>
+
+                        </select></li>
+                    <li>Color:
+                        <select>
+                            <option ng-repeat="color in detail.colors" value="{{color}}">{{color}}</option>
+                        </select></li>
+                </ul>
+            </div>
+            <a href="#" class="cart item_add">More details</a>
+        </div>
+    </div>
+    <div class="clearfix"> </div>
+    <div class="content-top1">
+        <div class="col-md-4 col-md4">
+            <div class="col-md1 simpleCart_shelfItem">
+                <a href="single.html">
+                    <img class="img-responsive" src="images/pi6.png" alt="">
+                </a>
+                <h3><a href="single.html">Trouser</a></h3>
+                <div class="price">
+                    <h5 class="item_price">$300</h5>
+                    <a href="#" class="item_add">Add To Cart</a>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>	
+        <div class="col-md-4 col-md4">
+            <div class="col-md1 simpleCart_shelfItem">
+                <a href="single.html">
+                    <img class="img-responsive" src="images/pi7.png" alt="">
+                </a>
+                <h3><a href="single.html">Jeans</a></h3>
+                <div class="price">
+                    <h5 class="item_price">$300</h5>
+                    <a href="#" class="item_add">Add To Cart</a>
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div>
+        </div>	
+        <div class="col-md-4 col-md4">
+            <div class="col-md1 simpleCart_shelfItem">
+                <a href="single.html">
+                    <img class="img-responsive" src="images/pi.png" alt="">
+                </a>
+                <h3><a href="single.html">Palazoo</a></h3>
+                <div class="price">
+                    <h5 class="item_price">$300</h5>
+                    <a href="#" class="item_add">Add To Cart</a>
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div>
+        </div>	
+
+        <div class="clearfix"> </div>
+    </div>		
+</div>

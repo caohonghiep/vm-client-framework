@@ -1,0 +1,30 @@
+<ng-include src="'parts/breadcrumbs.html'"></ng-include>
+<div class="products">
+    <div class="container">
+        <h2>Men</h2>
+        <!--products list or product detail-->
+         <div ui-view></div>
+        <!--
+         <ng-include src="'parts/product-list.html'"></ng-include>
+         
+         <ng-include src="'parts/product-detail.html'"></ng-include>
+        -->
+         
+         <div class="col-md-3 product-bottom">
+            <!--categories-->
+            <ng-include src="'parts/view-product/categories.html'"></ng-include>
+
+            <!--//menu-->
+            <!--seller-->
+            <ng-include src="'parts/view-product/best-seller.html'"></ng-include>
+            
+            <!--//seller-->
+            <!--tag-->
+             <ng-include src="'parts/view-product/tag.html'"></ng-include>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+<!--content
+<ng-include src="'parts/product.html'"></ng-include>
+//content-->
